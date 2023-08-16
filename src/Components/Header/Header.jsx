@@ -1,23 +1,24 @@
-import React from 'react'
-import "./Header.css"
-import profile from "../../assets/images/profile.jpg"
-import {FiDownload} from  "react-icons/fi"
+import React from "react";
+import "./Header.css";
+import profile from "../../assets/images/profile.jpg";
+import { FiDownload } from "react-icons/fi";
 import {
   AiFillGithub,
-  AiOutlineLinkedin,
-  AiFillFacebook,
+  AiFillInstagram,
   AiFillTwitterSquare,
 } from "react-icons/ai";
-import {FaInstagramSquare} from "react-icons/fa"
-import Resume from "../../assets/AKSHAY_P_Resume.pdf"
 
+import { BiLogoLinkedin } from "react-icons/bi";
+
+import { BsFacebook, BsTwitter } from "react-icons/bs";
+import Resume from "../../assets/AKSHAY_P_Resume.pdf";
 
 const Header = () => {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+          <div className="  lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h3 className="title-font sm:text-3xl text-3xl mb-4 font-bold text-white">
               Hello!
             </h3>
@@ -34,31 +35,41 @@ const Header = () => {
               Passionate about creating elegant and intuitive user interfaces
               that combine design and functionality.
             </p>
-            <a
-              href={Resume}
-              download="akshay_resume.pdf"
-            >
+            <a href={Resume} download="akshay_resume.pdf">
               <button className="resume-button flex items-center justify-center">
                 Resume <FiDownload className="ml-2" />
               </button>
             </a>
             <div className="icons">
-              <AiFillGithub /> <AiOutlineLinkedin/> <FaInstagramSquare />{" "}
-              <AiFillFacebook /> <AiFillTwitterSquare />
+              <a href="https://github.com/akshaypanampatta">
+                <AiFillGithub className="icon-git" />
+              </a>
+              <a href="https://www.linkedin.com/in/akshay-panampatta-89490118b/">
+                <BiLogoLinkedin className="icon" />
+              </a>
+              <a href="https://www.instagram.com/akshay_panampatta/">
+                <AiFillInstagram className="icon" />
+              </a>
+              <a href="https://www.facebook.com/akshaypaanampatta.akshaypaanampatta/">
+                <BsFacebook className="icon" />
+              </a>
+              <a href="https://twitter.com/Akshay405345277">
+                <BsTwitter className="icon" />
+              </a>
             </div>
           </div>
 
-          <div className="w-100 ">
+          <div  className="profile ">
             <img
-              className="object-cover object-center rounded"
+              className=" picture object-cover object-center rounded "
               alt="hero"
-              src=""
+              src={profile}
             />
           </div>
         </div>
       </section>
     </>
   );
-}
+};
 
-export default Header
+export default Header;
