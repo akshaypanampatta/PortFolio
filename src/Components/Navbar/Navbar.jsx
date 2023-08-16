@@ -13,8 +13,8 @@ const Navbar = () => {
             <a className=" nav mr-5  hover:text-orange-400 text-white ">HOME</a>
             <a className=" nav mr-5  hover:text-orange-400 text-white ">SKILLS</a>
             <a className=" nav mr-5  hover:text-orange-400 text-white ">WORKS</a>
-            <a className=" nav mr-5 hover:text-orange-400 text-white ">RESUME</a>
-            <a className=" nav mr-5 hover:text-orange-400 text-white ">CONTACT</a>
+            <a className=" nav mr-5  hover:text-orange-400 text-white ">RESUME</a>
+            <a className=" nav mr-5  hover:text-orange-400 text-white ">CONTACT</a>
           </nav>
         </div>
       </header>
