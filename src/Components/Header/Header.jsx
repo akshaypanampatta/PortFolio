@@ -23,9 +23,11 @@ const Header = () => {
               Hello!
             </h3>
             <h1 className=" title title-font sm:text-5xl text-3xl mb-4 font-medium text-white">
-              I'm{" "}
-              <span style={{ color: "#FB8122", fontWeight: "900" }}>
-                AKSHAY
+              <span>
+                I'm{" "}
+                <span style={{ color: "#FB8122", fontWeight: "900" }}>
+                  AKSHAY
+                </span>
               </span>
             </h1>
             <h2 className="  sub-title title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
@@ -59,10 +61,9 @@ const Header = () => {
             </div>
           </div>
 
-          <div  className="profile ">
+          <div className="profile ">
             <img
               className=" picture object-cover object-center rounded "
-              
               src={profile}
             />
           </div>

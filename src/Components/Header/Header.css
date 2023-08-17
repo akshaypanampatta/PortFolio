@@ -1,5 +1,14 @@
 .title{
    font-family: 'Cantata One', serif;
+   white-space: nowrap;
+   width: 10ch;
+   overflow: hidden;
+   animation: typing 4s steps(40)
+   infinite alternate-reverse;
+}
+@keyframes typing{
+    from{width: 0ch;}
+    to{width: 20ch;}
 }
 .sub-title{
     font-family: 'Marcellus SC', serif;
@@ -17,6 +26,7 @@
     height: 3rem;
     font-size: 1.4rem;
     font-weight: 600;
+    
 }
 .resume-button::before{
     content: "";
