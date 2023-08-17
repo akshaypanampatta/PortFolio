@@ -1,10 +1,8 @@
 import React from "react";
 import "./Skills.css"
 
-import javascript from "../../assets/images/javascript.png"
-import html from "../../assets/images/html.png"
-import css from "../../assets/images/css.png"
-import "animate.css";
+
+
 
 
 import reactVideo from "../../assets/videos/reactvideo.mp4"
