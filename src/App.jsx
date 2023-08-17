@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
+import Skills from './Components/Skills/Skills'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
    <Navbar/>
    <Header/>
+   <Skills/>
     </>
   )
 }
