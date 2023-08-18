@@ -1,0 +1,63 @@
+
+.POPUP {
+  position: relative;
+}
+.POPUP img {
+  transition: transform 0.3s ease;
+}
+
+.POPUP img:hover {
+  transform: scaleX(2);
+}
+
+.POPUP .popup {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  margin: auto;
+  transition: 0.5s ease;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.POPUP:hover .popup {
+  opacity: 1;
+}
+
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.sub{
+  height: 260px;
+  margin-bottom: 5rem;
+  margin: 1rem;
+  
+}
+
+@media(max-width:640px){
+  .sub{
+  height: 280px;
+  width: 380px;
+  margin-bottom: 5rem;
+  margin: 1rem;
+  
+}
+}
+
+
+
+
+
+

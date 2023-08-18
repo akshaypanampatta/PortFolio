@@ -10,7 +10,7 @@ import recipes from "../assets/images/recipes.png";
 
 
 
-const data = [
+export const data = [
   {
     id: 1,
     image: mi,
@@ -31,7 +31,7 @@ const data = [
     id: 3,
     image: olx,
     title: "OLX-Clone",
-    desc: "This project is an OLX clone built using React.js and Firebase, providing a user-friendly platform for buying and selling items. With the ability to sign up and sign in, users can easily create accounts to start listing items for sale or browse and purchase items from other sellers.",
+    desc: "Experience the future of online shopping with our React-powered Lox clone. Seamlessly browse, buy, and manage products through our intuitive interface backed by Firebase's secure infrastructure",
     live: "https://olx-clone-lovat.vercel.app/",
     git: "https://github.com/akshaypanampatta/OLX-Clone",
   },

@@ -43,19 +43,39 @@ const Header = () => {
               </button>
             </a>
             <div className="icons">
-              <a href="https://github.com/akshaypanampatta">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/akshaypanampatta"
+              >
                 <AiFillGithub className="icon-git" />
               </a>
-              <a href="https://www.linkedin.com/in/akshay-panampatta-89490118b/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/akshay-panampatta-89490118b/"
+              >
                 <BiLogoLinkedin className="icon" />
               </a>
-              <a href="https://www.instagram.com/akshay_panampatta/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/akshay_panampatta/"
+              >
                 <AiFillInstagram className="icon" />
               </a>
-              <a href="https://www.facebook.com/akshaypaanampatta.akshaypaanampatta/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/akshaypaanampatta.akshaypaanampatta/"
+              >
                 <BsFacebook className="icon" />
               </a>
-              <a href="https://twitter.com/Akshay405345277">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/Akshay405345277"
+              >
                 <BsTwitter className="icon" />
               </a>
             </div>
