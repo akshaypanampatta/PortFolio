@@ -8,7 +8,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 const Works = () => {
   return (
     <>
-      <div data-aos="fade-up" className="relative mb-4 mx-16 ">
+      <div data-aos="fade-up" className="relative mt-20 mb-12 mx-16 ">
         <h3 className=" my-skills text-3xl font-black text-white sm:text-3xl">
           My Works
         </h3>
@@ -19,7 +19,7 @@ const Works = () => {
           <div
             data-aos="zoom-in"
             key={data.id}
-            className=" main mt-10  "
+            className=" main mt-6  "
             style={{ width: "26rem" }}
           >
             <div className="sub  img-content relative POPUP ">
@@ -60,7 +60,7 @@ const Works = () => {
                 </div>
               </div>
               
-                <p className="text-white text-xl font-medium mt-3 ms-10 mb-20 sm:text-lg">
+                <p className="text-white text-xl font-medium mt-3 ms-10 mb-20 sm:text-lg name">
                   {data.title}
                 </p>
               

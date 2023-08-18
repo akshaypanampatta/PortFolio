@@ -28,7 +28,7 @@ const Skills = () => {
               </video>
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-orange-500 text-3xl title-font font-medium mb-2 ">
+              <h2 class="text-orange-500 text-3xl font-bold title-font  mb-2 ">
                 React Js
               </h2>
               <p class="leading-relaxed text-base text-white">
@@ -42,7 +42,7 @@ const Skills = () => {
 
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-orange-500 text-3xl title-font font-medium mb-2">
+              <h2 class="text-orange-500 text-3xl title-font font-bold  mb-2">
                 Javasript
               </h2>
               <p class="leading-relaxed text-base text-white">
@@ -66,7 +66,7 @@ const Skills = () => {
               </video>
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-orange-500 text-2xl title-font font-medium mb-2">
+              <h2 class="text-orange-500 text-2xl font-bold title-font  mb-2">
                 HTML
               </h2>
               <p class="leading-relaxed text-base text-white">
@@ -80,7 +80,7 @@ const Skills = () => {
 
           <div class="flex items-center lg:w-3/5 mx-auto border-t pt-10 mt-10 border-gray-200 sm:flex-row flex-col">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-orange-500 text-2xl title-font font-medium mb-2">
+              <h2 class="text-orange-500 text-2xl title-font font-bold mb-2">
                 CSS
               </h2>
               <p class="leading-relaxed text-base text-white">

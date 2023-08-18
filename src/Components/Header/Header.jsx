@@ -31,7 +31,7 @@ const Header = () => {
               </span>
             </h1>
             <h2 className="  sub-title title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              I'm a Frontnd Developer
+              I'm a Frontend Developer
             </h2>
             <p className=" sub-title mb-8 leading-relaxed text-white sm:text-xl">
               Passionate about creating elegant and intuitive user interfaces

@@ -36,14 +36,18 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  
   
 }
 .sub{
   height: 260px;
   margin-bottom: 5rem;
-  margin: 1rem;
   
+  
+}
+.name{
+  font-family: 'Baloo 2', cursive;
 }
 
 @media(max-width:640px){
@@ -55,7 +59,6 @@
   
 }
 }
-
 
 
 
