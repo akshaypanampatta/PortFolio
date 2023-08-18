@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 768px) {
+  .header{
+    margin-top: 3rem;
+  }
   .picture {
     margin-right: 0;
   }

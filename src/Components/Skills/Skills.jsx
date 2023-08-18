@@ -9,9 +9,9 @@ import cssVideo from "../../assets/videos/cssVideo.mp4";
 const Skills = () => {
   return (
     <>
-      <section id="skills" class="text-gray-600 body-font">
+      <section id="skills" class="text-gray-600 body-font skills">
         <div class="container px-5 py-5 mx-auto">
-          <div data-aos="fade-up" className="relative mb-24 ">
+          <div data-aos="fade-up" className="relative mb-14 ">
             <h3 className=" my-skills text-3xl font-black text-white sm:text-3xl">
               My Skills
             </h3>

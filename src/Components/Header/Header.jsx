@@ -12,7 +12,7 @@ import Resume from "../../assets/AKSHAY_P_Resume.pdf";
 const Header = () => {
   return (
     <>
-      <section id="head" className="text-gray-600 body-font">
+      <section id="head" className=" header  text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
           <div className="  lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h3 className="title-font sm:text-3xl text-3xl mb-4 font-bold text-white">
