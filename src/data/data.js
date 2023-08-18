@@ -1,14 +1,9 @@
-
-import mi from "../assets/images/mi.png"
+import mi from "../assets/images/mi.png";
 import netflix from "../assets/images/netflix.png";
 import olx from "../assets/images/olx.png";
 import travel from "../assets/images/travel.png";
 import ecommers from "../assets/images/e-commers.png";
 import recipes from "../assets/images/recipes.png";
-
-
-
-
 
 export const data = [
   {

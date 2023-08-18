@@ -1,4 +1,3 @@
-
 .POPUP {
   position: relative;
 }
@@ -31,36 +30,25 @@
   opacity: 1;
 }
 
-
 .grid-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
-  
 }
-.sub{
+.sub {
   height: 260px;
   margin-bottom: 5rem;
-  
-  
 }
-.name{
-  font-family: 'Baloo 2', cursive;
+.name {
+  font-family: "Baloo 2", cursive;
 }
 
-@media(max-width:640px){
-  .sub{
-  height: 280px;
-  width: 380px;
-  margin-bottom: 5rem;
-  margin: 1rem;
-  
+@media (max-width: 640px) {
+  .sub {
+    height: 280px;
+    width: 380px;
+    margin-bottom: 5rem;
+    margin: 1rem;
+  }
 }
-}
-
-
-
-
-

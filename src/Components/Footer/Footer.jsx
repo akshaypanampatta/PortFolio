@@ -1,8 +1,7 @@
-import React from 'react'
-import "./Footer.css"
+import React from "react";
+import "./Footer.css";
 import { BiLogoTelegram, BiLogoWhatsapp } from "react-icons/bi";
 import { IoLogoInstagram } from "react-icons/io";
-
 
 const Footer = () => {
   return (
@@ -43,6 +42,6 @@ const Footer = () => {
       </div>
     </>
   );
-}
+};
 
-export default Footer
+export default Footer;

@@ -5,7 +5,7 @@ import { FiSend } from "react-icons/fi";
 const Contact = () => {
   return (
     <>
-      <div>
+      <div id="contact">
         <div data-aos="fade-up" className="relative mt-14 mx-20 ">
           <h3 className=" my-skills text-3xl font-black text-white sm:text-3xl">
             Contact
@@ -73,7 +73,10 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button type="submit" className="send-button mx-auto flex items-center justify-center">
+                  <button
+                    type="submit"
+                    className="send-button mx-auto flex items-center justify-center"
+                  >
                     Send <FiSend className="ml-2" />
                   </button>
                 </div>

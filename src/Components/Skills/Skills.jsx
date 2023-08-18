@@ -1,11 +1,7 @@
 import React from "react";
-import "./Skills.css"
+import "./Skills.css";
 
-
-
-
-
-import reactVideo from "../../assets/videos/reactvideo.mp4"
+import reactVideo from "../../assets/videos/reactvideo.mp4";
 import htmlVideo from "../../assets/videos/htmlvideo.mp4";
 import jsVideo from "../../assets/videos/jsvideo.mp4";
 import cssVideo from "../../assets/videos/cssvideo.mp4";
@@ -13,7 +9,7 @@ import cssVideo from "../../assets/videos/cssvideo.mp4";
 const Skills = () => {
   return (
     <>
-      <section class="text-gray-600 body-font">
+      <section id="skills" class="text-gray-600 body-font">
         <div class="container px-5 py-5 mx-auto">
           <div data-aos="fade-up" className="relative mb-24 ">
             <h3 className=" my-skills text-3xl font-black text-white sm:text-3xl">
