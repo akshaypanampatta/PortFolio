@@ -1,10 +1,10 @@
 import React from "react";
 import "./Skills.css";
 
-import reactVideo from "../../assets/videos/reactvideo.mp4";
-import htmlVideo from "../../assets/videos/htmlvideo.mp4";
-import jsVideo from "../../assets/videos/jsvideo.mp4";
-import cssVideo from "../../assets/videos/cssvideo.mp4";
+import reactVideo from "../../assets/videos/reactVideo.mp4";
+import htmlVideo from "../../assets/videos/htmlVideo.mp4";
+import jsVideo from "../../assets/videos/jsVideo.mp4";
+import cssVideo from "../../assets/videos/cssVideo.mp4";
 
 const Skills = () => {
   return (
