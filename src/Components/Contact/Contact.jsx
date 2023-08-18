@@ -1,9 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { FiSend } from "react-icons/fi";
-import {BiLogoTelegram, BiLogoWhatsapp} from "react-icons/bi"
-import { IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io";
-import { AiFillInstagram } from "react-icons/ai";
+
 
 const Contact = () => {
   return (
@@ -73,22 +71,7 @@ const Contact = () => {
                     Send <FiSend className="ml-2" />
                   </button>
                 </div>
-                <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                  <a className="text-indigo-500">example@email.com</a>
-                  <h1>Lets </h1>
-                  <span className="inline-flex">
-                    <a className="text-white">
-                     <BiLogoTelegram/>
-                    </a>
-                    <a className="ml-4 text-white">
-                      <BiLogoWhatsapp/>
-                    </a>
-                    <a className="ml-4 text-white">
-                     <IoLogoInstagram/>
-                    </a>
-                    
-                  </span>
-                </div>
+               
               </div>
             </div>
           </div>

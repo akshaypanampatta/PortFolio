@@ -1,0 +1,11 @@
+.footer{
+    font-family: 'Cantata One', serif;
+}
+.footer-container{
+    max-width: 50%;
+    margin: auto;
+}
+.footer-icon:hover{
+    transform: scale(1.3);
+  transition: 0.5s;
+}
