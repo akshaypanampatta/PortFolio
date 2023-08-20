@@ -17,7 +17,10 @@ const Skills = () => {
             </h3>
             <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>
           </div>
-          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div
+            data-aos="fade-up"
+            class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
+          >
             <div class="sm:w-36 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full  text-indigo-500 flex-shrink-0">
               <video loop muted autoPlay className="">
                 <source src={reactVideo} type="video/mp4"></source>
@@ -36,7 +39,10 @@ const Skills = () => {
             </div>
           </div>
 
-          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div
+            data-aos="fade-up"
+            class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col"
+          >
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 class="text-orange-500 text-3xl title-font font-bold  mb-2">
                 Javasript
@@ -55,7 +61,10 @@ const Skills = () => {
             </div>
           </div>
 
-          <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+          <div
+            data-aos="fade-up"
+            class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col"
+          >
             <div class="sm:w-36 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full  text-indigo-500 flex-shrink-0">
               <video loop muted autoPlay className="">
                 <source src={htmlVideo} type="video/mp4"></source>
@@ -74,7 +83,10 @@ const Skills = () => {
             </div>
           </div>
 
-          <div class="flex items-center lg:w-3/5 mx-auto border-t pt-10 mt-10 border-gray-200 sm:flex-row flex-col">
+          <div
+            data-aos="fade-up"
+            class="flex items-center lg:w-3/5 mx-auto border-t pt-10 mt-10 border-gray-200 sm:flex-row flex-col"
+          >
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 class="text-orange-500 text-2xl title-font font-bold mb-2">
                 CSS

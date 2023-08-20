@@ -6,7 +6,11 @@ import { IoLogoInstagram } from "react-icons/io";
 const Footer = () => {
   return (
     <>
-      <div className="footer-container">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="100"
+        className="footer-container"
+      >
         <div className="p-2 w-full pt-4 mt-8 border-t border-gray-200 text-center">
           <h1 className="text-white text-4xl footer">Let's Talk</h1>
           <div className="flex justify-center items-center mt-4">

@@ -45,6 +45,7 @@
   font-family: "Baloo 2", cursive;
 }
 
+
 @media (max-width: 640px) {
   .sub {
     height: 280px;
@@ -58,6 +59,10 @@
 @media(max-width:410px)
 {
   .grid-container{
-    width: 25rem;
+    width: 14rem;
   }
+  .name{
+    padding-left: 3rem;
+  }
+ 
 }

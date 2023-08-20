@@ -14,7 +14,10 @@ const Contact = () => {
         </div>
         <section className="text-white body-font relative">
           <div className="container px-5 py-20 mx-auto">
-            <div className="flex flex-col text-center w-full mb-12">
+            <div
+              data-aos="fade-up"
+              className="flex flex-col text-center w-full mb-12"
+            >
               <h1 className="contact sm:text-4xl text-2xl font-medium title-font mb-4 text-white">
                 Need a Stunning Website{" "}
                 <span className="text-orange-500">Design?</span>
@@ -28,7 +31,7 @@ const Contact = () => {
                 action="mailto:akshaypanampatta8891@gmail.com"
                 className="flex flex-wrap -m-2"
               >
-                <div className="p-2 w-1/2">
+                <div data-aos="fade-up" className="p-2 w-1/2">
                   <div className="relative">
                     <label for="name" className="leading-7 text-sm text-white">
                       Name
@@ -42,7 +45,7 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="p-2 w-1/2">
+                <div data-aos="fade-up" className="p-2 w-1/2">
                   <div className="relative">
                     <label for="email" className="leading-7 text-sm text-white">
                       Email
@@ -56,7 +59,7 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="p-2 w-full">
+                <div data-aos="fade-up" className="p-2 w-full">
                   <div className="relative">
                     <label
                       for="message"
@@ -72,7 +75,7 @@ const Contact = () => {
                     ></textarea>
                   </div>
                 </div>
-                <div className="p-2 w-full">
+                <div data-aos="fade-up" className="p-2 w-full">
                   <button
                     type="submit"
                     className="send-button mx-auto flex items-center justify-center"

@@ -3,9 +3,7 @@ import "./Header.css";
 import profile from "../../assets/images/profile.png";
 import { FiDownload } from "react-icons/fi";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-
 import { BiLogoLinkedin } from "react-icons/bi";
-
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import Resume from "../../assets/AKSHAY_P_Resume.pdf";
 
@@ -14,7 +12,7 @@ const Header = () => {
     <>
       <section id="head" className=" header  text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
-          <div className="  lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div data-aos="fade-right" className="  lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h3 className="title-font sm:text-3xl text-3xl mb-4 font-bold text-white">
               Hello!
             </h3>
@@ -77,7 +75,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="profile ">
+          <div data-aos="fade-left" className="profile ">
             <img
               className=" picture object-cover object-center rounded "
               src={profile}

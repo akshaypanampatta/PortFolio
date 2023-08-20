@@ -4,6 +4,7 @@
 .footer-container{
     max-width: 50%;
     margin: auto;
+    
 }
 .footer-icon:hover{
     transform: scale(1.3);
